@@ -1,7 +1,6 @@
 package OOP_Task3_OlympicGames;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Team<T extends Programmer> {
@@ -23,6 +22,7 @@ public class Team<T extends Programmer> {
 
     @Override
     public String toString() {
+        // Реализовать вывод в консоль учатников группы по имени, как положено, потому что этот код не работает.
         return String.format("Team: %s Members: %s", name, programmers);
     }
 }
